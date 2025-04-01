@@ -1,0 +1,89 @@
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+/build/
+target/
+out/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!build/libs/*.jar  # JAR 파일만은 GitHub Actions가 빌드 후 사용 가능하게 포함
+
+# Maven
+.mvn/
+!**/src/main/**
+!**/src/test/**
+dependency-reduced-pom.xml
+release.properties
+
+# Logs
+logs/
+*.log
+*.out
+
+# Test reports
+test-output/
+surefire-reports/
+jacoco.exec
+
+# Environment files
+.env
+application-*.yml
+application-*.properties
+
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
