@@ -52,8 +52,8 @@ jobs:
       - name: 🚀 Trigger AWS CodeDeploy Deployment
         run: |
           aws deploy create-deployment \
-            --application-name codedeploy-ktb3tier-be \
-            --deployment-group-name DG-ktb3tier-backend \
+            --application-name codedeploy-web-3tier-BE \
+            --deployment-group-name DG-springboot-BE \
             --deployment-config-name CodeDeployDefault.AllAtOnce \
             --s3-location bucket=${{ secrets.S3_BUCKET_NAME }},bundleType=zip,key=code-deploy-artifacts/deployment.zip
         env:
