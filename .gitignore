@@ -13,8 +13,6 @@
 .vscode/
 *.swp
 
-*.yml
-
 # OS
 .DS_Store
 Thumbs.db
@@ -50,6 +48,7 @@ jacoco.exec
 # Environment files
 .env
 application-*.yml
+application.yml
 application-*.properties
 
 HELP.md
