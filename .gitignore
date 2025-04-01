@@ -13,6 +13,8 @@
 .vscode/
 *.swp
 
+*.yml
+
 # OS
 .DS_Store
 Thumbs.db
